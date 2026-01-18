@@ -63,9 +63,9 @@ namespace MenuScript.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap creeper {
+        internal static System.Drawing.Bitmap AddIcon {
             get {
-                object obj = ResourceManager.GetObject("creeper", resourceCulture);
+                object obj = ResourceManager.GetObject("AddIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,89 @@ namespace MenuScript.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap steve {
+        internal static System.Drawing.Bitmap DeleteTaskIcon {
             get {
-                object obj = ResourceManager.GetObject("steve", resourceCulture);
+                object obj = ResourceManager.GetObject("DeleteTaskIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EditIcon {
+            get {
+                object obj = ResourceManager.GetObject("EditIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FileIcon {
+            get {
+                object obj = ResourceManager.GetObject("FileIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FloppyDiskIcon {
+            get {
+                object obj = ResourceManager.GetObject("FloppyDiskIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HelpIcon {
+            get {
+                object obj = ResourceManager.GetObject("HelpIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IIcon {
+            get {
+                object obj = ResourceManager.GetObject("IIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NewDocumentIcon {
+            get {
+                object obj = ResourceManager.GetObject("NewDocumentIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RedXIcon {
+            get {
+                object obj = ResourceManager.GetObject("RedXIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TaskIcon {
+            get {
+                object obj = ResourceManager.GetObject("TaskIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
