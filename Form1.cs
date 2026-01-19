@@ -23,6 +23,7 @@ namespace MenuScript
             addTaskGroupBox.BringToFront();
             editTaskGroupBox.Location = addTaskGroupBox.Location;
             deleteTaskGroupBox.Location = addTaskGroupBox.Location;
+            loadTasks();
         }
 
         private void addTaskToolStripMenuItem_Click(object sender, EventArgs e)
